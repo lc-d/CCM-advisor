@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Ambienti e dipendenze
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# Dati grezzi di terze parti (fillings, bilanci PDF, export, screenshot) e le note delle conversazioni.
+dati/**/*.*
+!dati/aziende/README.md
+!dati/note/README.md
