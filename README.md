@@ -33,6 +33,14 @@ in cui si esegue `/report`, se non erano già state salvate), così la fase 2 fu
 Tenendo una scheda per data, lo storico resta confrontabile nel tempo e i diff di git mostrano come cambiano i
 documenti di report tra un trimestre e l'altro.
 
+## Altri comandi
+
+Strumento indipendente dal flusso analisi/report, in un'unica esecuzione:
+
+| Comando | Cosa fa                                                                                                                                                                                                                                                                                                                                                            |
+|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `/csp`  | Individua le 3 migliori opportunità di vendita di Cash Secured Put in scadenza la settimana successiva, a partire dallo screener pubblico [cortesi.org/csp](https://cortesi.org/csp/povery.html), verifica i dati con una fonte indipendente e ne controlla il sentiment (incluso X) e il rischio earnings prima di rispondere. Non produce né salva un documento. |
+
 ## Struttura
 
 ```
@@ -43,10 +51,12 @@ analisi-finanziaria/
 │   │   └── references/                             # materiale di supporto alla fase 1
 │   │       ├── metriche.md                         # metriche da estrarre e convenzioni
 │   │       └── fonti.md                            # gerarchia delle fonti da consultare
-│   └── report/
-│       ├── SKILL.md                                # /report TICKER — fase 2
-│       └── references/                             # materiale di supporto alla fase 2
-│           └── template-scheda.md                  # struttura fissa del documento di output
+│   ├── report/
+│   │   ├── SKILL.md                                # /report TICKER — fase 2
+│   │   └── references/                             # materiale di supporto alla fase 2
+│   │       └── template-scheda.md                  # struttura fissa del documento di output
+│   └── csp/
+│       └── SKILL.md                                # /csp — screening settimanale CSP
 ├── dati/
 │   ├── aziende/<TICKER>/*.*                         # input grezzi (S1, 10-Q, 10-K, altro)
 │   └── note/<TICKER>/note-<YYYYMMDD>.md             # note di lavoro della fase 1
