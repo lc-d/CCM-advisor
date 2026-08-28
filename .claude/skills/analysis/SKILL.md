@@ -31,7 +31,7 @@ In quest'ordine:
 
 1. **Documenti locali** — controlla se esiste una cartella `dati/aziende/<TICKER>/` e leggi tutto quello che trovi
    (bilanci, presentazioni, screenshot, appunti). Se non li trovi consiglia l'utente di inserire almeno
-   1. l'ultimo Q dalla SEC;
+   1. l'ultimi Q dalla SEC;
    2. ultimo 10-k dalla SEC; 
    3. Form-S1/S3 dell'IPO filling (utile per ricostruzione storica). 
    Prima di continuare.

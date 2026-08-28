@@ -19,3 +19,12 @@ __pycache__/
 dati/**/*.*
 !dati/aziende/README.md
 !dati/note/README.md
+
+# File salvati da /csp
+csp/**/*.*
+!csp/README.md
+
+# Bundle .zip generati da scripts/sync-skills.sh --zip per l'import manuale
+# in Grok Skills (grok.com/app); rigenerabili in qualsiasi momento, .agents/
+# invece va tracciato: sono solo symlink verso .claude/skills/, non copie.
+dist/grok-skills-import/

@@ -1,0 +1,1 @@
+Cartella per i markdown salvati tramite la skill `/csp`
