@@ -39,7 +39,7 @@ Strumento indipendente dal flusso analisi/report, in un'unica esecuzione:
 
 | Comando | Cosa fa                                                                                                                                                                                                                                                                                                                                                            |
 |---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `/csp`  | Individua le 3 migliori opportunità di vendita di Cash Secured Put in scadenza la settimana successiva, a partire dallo screener pubblico [cortesi.org/csp](https://cortesi.org/csp/povery.html), verifica i dati con una fonte indipendente e ne controlla il sentiment (incluso X) e il rischio earnings prima di rispondere. Non produce né salva un documento. |
+| `/csp [BUDGET]` | Individua le 3 migliori opportunità di vendita di Cash Secured Put in scadenza la settimana successiva, a partire dallo screener pubblico [cortesi.org/csp](https://cortesi.org/csp/povery.html), verifica i dati con una fonte indipendente e ne controlla il sentiment (incluso X) e il rischio earnings prima di rispondere. Su richiesta salva il report in `csp/csp-<scadenza>.md`. |
 
 ## Struttura
 
@@ -67,6 +67,7 @@ analisi-finanziaria/
 │   ├── aziende/<TICKER>/*.*                         # input grezzi (S1, 10-Q, 10-K, altro)
 │   └── note/<TICKER>/note-<YYYYMMDD>.md             # note di lavoro della fase 1
 ├── analisi/<TICKER>/<TICKER>_<YYYYMMDD>_analisi.md # output: schede generate, una per data
+├── csp/csp-<YYYY-MM-DD>.md                          # output: report /csp, uno per scadenza
 └── README.md
 ```
 
