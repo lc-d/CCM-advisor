@@ -17,7 +17,7 @@ Due comandi principali per due fasi distinte:
 | `/report TICKER`         | 2 — Documento di report | Trasforma l'analisi (dalla conversazione o dalle note) nella scheda markdown secondo il template. Non introduce dati nuovi.                                                                                        |
 
 La separazione serve a poter correggere e indirizzare l'analisi prima che diventi un documento. La fase 1 salva le note
-di lavoro in `dati/note/<TICKER>/note-<YYYYMMDD>.md` prima di chiudere la conversazione (o comunque al momento
+di lavoro in `.note/<TICKER>/note-<YYYYMMDD>.md` prima di chiudere la conversazione (o comunque al momento
 in cui si esegue `/report`, se non erano già state salvate), così la fase 2 funziona anche in una chat diversa.
 
 ## Come si usa
@@ -64,8 +64,8 @@ analisi-finanziaria/
 ├── scripts/
 │   └── sync-skills.sh                              # rigenera .agents/skills/ e i sync globali
 ├── dati/
-│   ├── aziende/<TICKER>/*.*                         # input grezzi (S1, 10-Q, 10-K, altro)
-│   └── note/<TICKER>/note-<YYYYMMDD>.md             # note di lavoro della fase 1
+│   └── aziende/<TICKER>/*.*                         # input grezzi (S1, 10-Q, 10-K, altro)
+├── .note/<TICKER>/note-<YYYYMMDD>.md                # note di lavoro della fase 1
 ├── analisi/<TICKER>/<TICKER>_<YYYYMMDD>_analisi.md # output: schede generate, una per data
 ├── csp/csp-<YYYY-MM-DD>.md                          # output: report /csp, uno per scadenza
 └── README.md

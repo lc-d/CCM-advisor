@@ -1,6 +1,6 @@
 ---
 name: analysis
-description: "Analisi preliminare interattiva di un'azienda quotata. Raccoglie bilanci, dati di mercato, notizie e stime, li discute in conversazione con l'utente e salva le note di lavoro. Da usare quando l'utente scrive /analysis TICKER o chiede un'analisi preliminare di un'azienda. Non produce il documento finale: quello è compito della skill report."
+description: "Analisi preliminare interattiva di un'azienda quotata. Raccoglie bilanci, dati di mercato, notizie e stime, li discute in conversazione con l'utente e salva le .note di lavoro. Da usare quando l'utente scrive /analysis TICKER o chiede un'analisi preliminare di un'azienda. Non produce il documento finale: quello è compito della skill report."
 argument-hint: "<TICKER> [URL sito aziendale o Investor Relations]"
 ---
 
@@ -10,7 +10,7 @@ Fase 1 del flusso di lavoro. Obiettivo: raccogliere e discutere in conversazione
 che l'utente possa correggere, aggiungere contesto e indirizzare l'analisi **prima** che il documento venga scritto.
 
 Prima di cominciare l'analisi controlla sempre che non ci sia stata già una conversazione sullo stesso TICKER, es.
-`dati/note/<TICKER>/note-<YYYYMMDD>.md`. Se esiste chiedi all'utente se vuole ripartire dalla vecchia
+`../../../.note/<TICKER>/note-<YYYYMMDD>.md`. Se esiste chiedi all'utente se vuole ripartire dalla vecchia
 conversazione o iniziarne una nuova.
 
 **Importante!** Non scrivere la scheda finale in questa fase. Il documento si produce con `/report TICKER`. Prima di
@@ -84,7 +84,7 @@ su cui vuole che l'analisi si concentri. Aspettati di iterare piu' volte prima d
 
 ## 6. Salva le note di lavoro
 
-Prima di chiudere la conversazione e di creare il report salva quanto raccolto in `dati/note/<TICKER>/note-<YYYYMMDD>.md`:
+Prima di chiudere la conversazione e di creare il report salva quanto raccolto in `../../../.note/<TICKER>/note-<YYYYMMDD>.md`:
 tutti i dati numerici con la relativa fonte e data, le varianze commentate, i punti emersi dalla conversazione, e la
 lista dei dati mancanti.
 

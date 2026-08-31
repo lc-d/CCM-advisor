@@ -15,7 +15,7 @@ Nell'ordine:
 
 1. **La conversazione corrente**, se `/analysis <TICKER>` è stato eseguito in questa chat:
    è la fonte primaria, perché contiene anche le correzioni e le indicazioni dell'utente.
-2. **Le note di lavoro** in `dati/note/<TICKER>/note-<YYYYMMDD>.md`, prendendo la piu'
+2. **Le note di lavoro** in `../../../.note/<TICKER>/note-<YYYYMMDD>.md`, prendendo la piu'
    recente. Usa questa strada quando la chat non contiene l'analisi.
 3. **I documenti** in `dati/aziende/<TICKER>/`, per verificare un dato dubbio alla fonte.
 
@@ -25,7 +25,7 @@ eseguire prima `/analysis <TICKER> [URL]`. Non improvvisare un'analisi da zero i
 ## 2. Regola fondamentale
 
 Il report **non introduce dati nuovi**. Ogni cifra deve provenire dall'analisi preliminare
-o essere verificata con le note `dati/note/<TICKER>/`. Se durante la scrittura
+o essere verificata con le note `../../../.note/<TICKER>/`. Se durante la scrittura
 ti accorgi che manca un dato previsto dal template:
 
 - se è recuperabile da una fonte già citata, recuperalo e cita la fonte;

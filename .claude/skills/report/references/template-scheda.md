@@ -8,6 +8,7 @@ ticker: [TICKER]
 title: [nome-azienda]
 model: [il modello AI attualmente utilizzato]
 date: [data attuale es.: 2011-10-10T14:48:00.000+09:00]
+draft: true
 ---
 
 # [Nome azienda] ([TICKER]) — Scheda di analisi
