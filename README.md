@@ -5,8 +5,11 @@ omogenea.
 
 ## Installazione
 
-Scarica questo "repo" in locale ed esegui **Claude Code** nella cartella per avere accesso alle skill scrivendo `/` e al
-flusso di lavoro. Oppure con **Claude Co-work** crea un nuovo progetto associando questo "repo" come cartella del progetto.
+Scarica questo "repo" in locale ed esegui **Claude Code** nella cartella per avere accesso al flusso di lavoro e alle
+skill scrivendo `/`. 
+
+Oppure con **Claude Co-work** crea un nuovo progetto associando questo "repo" come cartella del
+progetto.
 
 ## Flusso di lavoro
 
