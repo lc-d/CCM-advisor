@@ -23,9 +23,8 @@ in cui si esegue `/report`, se non erano già state salvate), così la fase 2 fu
 ## Come si usa
 
 1. È sempre preferibile mettere documenti dell'azienda in `dati/aziende/<TICKER>/`. Considera di aggiungere alla
-   cartella il Form-S1 dell'IPO filling (utile per la ricostruzione storica) e/o ultimi 10-Q, 10-K, ecc.
-   dalla [SEC](https://www.sec.gov/edgar/search/) (puoi slavare la pagina HTML della SEC in locale e incollarla nella
-   sottocartella del ticker).
+   cartella gli ultimi 10-Q, 10-K, ecc. (Form-S1 dell'IPO filling, utile per la ricostruzione storica) 
+   dalla [SEC](https://www.sec.gov/edgar/search/) nel formato che vuoi.
 2. Lancia `/analysis <TICKER> [URL]` — discuti l'analisi, correggi, aggiungi contesto; le note di lavoro vengono salvate
    automaticamente alla chiusura della conversazione.
 3. Finita la conversazione lancia `/report <TICKER>` — genera la scheda in `analisi/<TICKER>/`.
