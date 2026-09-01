@@ -35,7 +35,7 @@ esegue `/report`, se non erano già state salvate), così la fase 2 funziona anc
 2. Lancia `/analysis <TICKER> [URL]` — discuti l'analisi, correggi, aggiungi contesto; le note di lavoro vengono salvate
    automaticamente alla chiusura della conversazione. L'argomento [URL] è opzionale e corrisponde al sito web "Investor
    Relations" dell'azienda.
-3. Finita la conversazione lancia `/report <TICKER>` — genera la scheda in `analisi/<TICKER>/`.
+3. Finita la conversazione lancia `/report <TICKER>` — genera la scheda in `analisi/<TICKER>/<TICKER>_<YYYYMMDD>_analisi.md`.
 
 Tenendo una scheda per data, lo storico resta confrontabile nel tempo e salvando le note di lavoro dell'analisi puoi
 riaprire vecchie conversazioni per aggiornare i report.

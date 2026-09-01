@@ -91,4 +91,4 @@ strike se assegnato, va valutato in base al proprio profilo di rischio e alla pr
 ## 4. Salva la risposta in un file .md
 
 Alla fine del processo chiedi **sempre** all'utente se vuole salvare un file markdown della risposta. Se la risposta è
-si salva un file nella cartella `/csp` del progetto con questo nome `csp/csp-[Date to expired].md` 
+si salva un file nella cartella `/csp` del progetto con questo nome `csp/csp-[DateToExpired].md` 

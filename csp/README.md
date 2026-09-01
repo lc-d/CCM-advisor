@@ -1,1 +1,1 @@
-Cartella per i markdown salvati tramite la skill `/csp`
+Cartella per i report in markdown salvati tramite la skill `/csp`. Es. `csp/csp-[DateToExpired].md`.
