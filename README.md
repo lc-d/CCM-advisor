@@ -6,10 +6,9 @@ omogenea.
 ## Installazione
 
 Scarica questo "repo" in locale ed esegui **Claude Code** nella cartella per avere accesso al flusso di lavoro e alle
-skill scrivendo `/`. 
+skill scrivendo `/`.
 
-Oppure con **Claude Co-work** crea un nuovo progetto associando questo "repo" come cartella del
-progetto.
+Oppure con **Claude Co-work** crea un nuovo progetto associando questo "repo" come cartella del progetto.
 
 ## Flusso di lavoro
 
@@ -34,7 +33,8 @@ esegue `/report`, se non erano già state salvate), così la fase 2 funziona anc
    cartella gli ultimi 10-Q, 10-K, ecc. (Form-S1 dell'IPO filling, utile per la ricostruzione storica)
    dalla [SEC](https://www.sec.gov/edgar/search/) nel formato che vuoi.
 2. Lancia `/analysis <TICKER> [URL]` — discuti l'analisi, correggi, aggiungi contesto; le note di lavoro vengono salvate
-   automaticamente alla chiusura della conversazione.
+   automaticamente alla chiusura della conversazione. L'argomento [URL] è opzionale e corrisponde al sito web "Investor
+   Relations" dell'azienda.
 3. Finita la conversazione lancia `/report <TICKER>` — genera la scheda in `analisi/<TICKER>/`.
 
 Tenendo una scheda per data, lo storico resta confrontabile nel tempo e salvando le note di lavoro dell'analisi puoi
