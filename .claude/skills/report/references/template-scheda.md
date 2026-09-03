@@ -13,8 +13,27 @@ draft: true
 
 # [Nome azienda] ([TICKER]) — Scheda di analisi
 
-## Sintesi fase 1
+## Panoramica
 
+### Storia
+[Breve storia dell'azienda dalla fondazione, in massimo 1000 caratteri]
+
+### Ownership
+[Elenco e analisi della ownership]
+
+### Prodotti
+[I prodotti principali: elenco con breve descrizione]
+
+### Revenues stream
+[Revenues stream]
+
+### MOAT
+[Valutazione del MOAT (se c'è un MOAT)]
+
+### Potenziali concorrenti
+[Elenco potenziali concorrenti]
+
+## Conversazione con l'utente
 [Analisi qualitativa emersa dalla fase uno (cerca nelle note se non c'è già una conversazione attiva) con particolare enfasi sulle domande poste dall'utente]
 
 ## Panoramica del business
