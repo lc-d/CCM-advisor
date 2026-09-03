@@ -65,9 +65,11 @@ Presenta come prima risposta in conversazione un'analisi qualitativa:
 1. Breve storia dell'azienda dalla fondazione, in massimo 1000 caratteri;
 2. Elenco e analisi della ownership;
 3. I prodotti principali: elenco con breve descrizione;
-4. Revenues stream
+4. Revenues stream;
 5. Valutazione del MOAT (se c'è un MOAT);
-6. Elenco potenziali concorrenti.
+6. Elenco potenziali concorrenti;
+7. Analisi del Backlog;
+8. Analisi di R&D negli ultimi 2 anni.
 
 Alla fine della tua presentazione chiedi all'utente se vuole proseguire con un'analisi quantitativa più tecnica, se la
 risposta è affermativa, procedi presentando:

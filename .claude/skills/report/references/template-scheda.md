@@ -33,6 +33,12 @@ draft: true
 ### Potenziali concorrenti
 [Elenco potenziali concorrenti]
 
+### Analisi del Backlog
+[Analisi del Backlog, nuovi contratti]
+
+### R&D
+[Analisi Ricerca e sviluppo negli ultimi 2 anni]
+
 ## Conversazione con l'utente
 [Analisi qualitativa emersa dalla fase uno (cerca nelle note se non c'è già una conversazione attiva) con particolare enfasi sulle domande poste dall'utente]
 
