@@ -15,17 +15,20 @@ node_modules/
 __pycache__/
 *.pyc
 
-# Dati grezzi di terze parti (fillings, bilanci PDF, export, screenshot) e le .note delle conversazioni.
+# Dati grezzi di terze parti (fillings, bilanci PDF, export, screenshot)
 dati/**/*.*
 !dati/aziende/README.md
-!.note/README.md
+
 
 # File salvati da /csp
 csp/**/*.*
 !csp/README.md
 
-# Note di lavoro
+# Analisi e note di lavoro
 .note/**/*.*
+!.note/README.md
+.analisi/**/*.*
+!.analisi/README.md
 
 # Analisi
 analisi/**/*.*
